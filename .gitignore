@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+wheels/
+*.egg-info/
+*.whl
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Environments
+.env
+venv/
+ENV/
+
+# GCP Specific
+.gcloud/
+credentials.json  # Specifically ignore GCP credentials file
+account.json # More general credentials
+
+# Vertex AI - potential cached data
+vertex_ai_data/
+
+# JetBrains IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode
+.vscode/
+
+# Secrets
+*.json
+*.yaml
+*.credentials
+*.key
+*.pem
+
+# Data - VERY IMPORTANT - prevent committing large datasets
+data/
+*.zip
+*.tar.gz
+*.csv
+*.npy
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# MLflow - To ignore the MLflow artifacts dir
+mlruns/
